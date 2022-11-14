@@ -1,9 +1,15 @@
 {
   "name": "@gaku101/style-dictionary-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
-  "style":"build/css/designtokens.css",
-  "files":["build/css/**"],
+  "style": [
+    "build/css/designtokens.css",
+    "build/css/designtokens.scss"
+  ],
+  "files": [
+    "build/css/**",
+    "build/scss/**"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gaku101/style-dictionary-example.git"
@@ -13,6 +19,8 @@
   "bugs": {
     "url": "https://github.com/gaku101/style-dictionary-example/issues"
   },
-  "publishConfig":{"access":"public"},
+  "publishConfig": {
+    "access": "public"
+  },
   "homepage": "https://github.com/gaku101/style-dictionary-example#readme"
 }
